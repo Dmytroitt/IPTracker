@@ -5,7 +5,7 @@ import os
 import json
 from urllib import request
 
-print("--- Choko IP Tracker ---")
+print("--- Skaskya IP Tracker ---")
 print("")
 time.sleep(2)
 os.system("clear")
