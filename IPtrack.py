@@ -5,13 +5,13 @@ import os
 import json
 from urllib import request
 
-print("--- Skaskya IP Tracker ---")
+print("--- IP Tracker ---")
 print("")
 time.sleep(2)
 os.system("clear")
 
 url = "http://ip-api.com/json/"
-ip = input("Insira o IP: ")
+ip = input("IP: ")
 request = request.urlopen(url + ip)
 data_json = json.loads(request.read())
 
