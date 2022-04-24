@@ -18,9 +18,9 @@ def request_and_input():
 
     if data_json['status'] == "success":
 	print(f"IP : {data_json['query']}")
-	print(f"País : {data_json['country']}")
-	print(f"Região : {data_json['regionName']}")
-	print(f"Cidade : {data_json['city']}")
+	print(f"Country : {data_json['country']}")
+	print(f"Region : {data_json['regionName']}")
+	print(f"City : {data_json['city']}")
 	print(f"Latitude : {data_json['lat']}")
 	print(f"Longitude : {data_json['lon']}")
 	print(f"ISP : {data_json['isp']}")
